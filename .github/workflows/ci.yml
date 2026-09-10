@@ -10,6 +10,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Melihat isi repository
-        run: exit 1
+        run: ls -la
       - name: Menampilkan pesan
         run: echo "CI berhasil dijalankan!"
